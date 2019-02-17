@@ -1,0 +1,101 @@
+#jmb-mn{
+  text-align: center;
+}
+
+#test {
+  height: 60px;
+  background-color: #fa3;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20pt;
+}
+
+#btn-cont {
+  text-align: center;  
+}
+
+/*  Element located in 'no-page.html' */
+#nt-fnd-btn-cnt {
+  text-align: center;
+}
+
+#nav-recipie-cont {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.defaultBG {
+	background-color: #e9ecef;
+	text-align: center;
+	padding: 10px;
+	box-shadow: 
+	0 4px 8px 0
+	rgba(0, 0, 0, 0.2);
+	0 6px 20px 0
+	rgba(0, 0, 0, 0.19);
+	font-size: 14pt;
+}
+
+.blue-greyBG {
+	background-color: #accde2;
+	text-align: center;
+	padding: 10px;
+	box-shadow: 
+	0 4px 8px 0
+	rgba(0, 0, 0, 0.2);
+	0 6px 20px 0
+	rgba(0, 0, 0, 0.19);
+	font-size: 14pt;
+}
+
+.lightBG {
+	background-color: #8eb9ff;
+	text-align: center;
+	padding: 10px;
+	box-shadow: 
+	0 4px 8px 0
+	rgba(0, 0, 0, 0.2);
+	0 6px 20px 0
+	rgba(0, 0, 0, 0.19);
+	font-size: 14pt;
+}
+
+.darkBG {
+	background-color: #537dc1;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	box-shadow: 
+	0 4px 8px 0
+	rgba(0, 0, 0, 0.2);
+	0 6px 20px 0
+	rgba(0, 0, 0, 0.19);
+	font-size: 14pt;
+}
+
+.darkerBG {
+	background-color: #2f538c;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	box-shadow: 
+	0 4px 8px 0
+	rgba(0, 0, 0, 0.2);
+	0 6px 20px 0
+	rgba(0, 0, 0, 0.19);
+	font-size: 14pt;
+}
+
+.darkestBG {
+	background-color: #183666;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	box-shadow: 
+	0 4px 8px 0
+	rgba(0, 0, 0, 0.2);
+	0 6px 20px 0 
+	rgba(0, 0, 0, 0.19);
+	font-size: 14pt;
+}
