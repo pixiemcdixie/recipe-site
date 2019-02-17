@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Recipe Website</title>
+    
+    <!-- Custom Style & Bootstrap Style -->
+    <link rel="icon" type="image/png" href="img/pan.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+  
+    <!-- navbar -->
+    <header>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"
+        style="text-align: center;">
+          <div class="row" style="margin-right: 0px;">
+            <div class="col-sm-12 defaultBG"><h2>Welcome to the Recipe site!</h2></div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="row">
+                <div class="col-sm-12 blue-greyBG"
+                style="margin: 3px;"><a href="no-page.html">Desert Recipes</a></div>
+
+              <div class="col-sm-12 blue-greyBG"
+              style="margin: 3px;"><a href="no-page.html">Breakfast Recipes</a></div>
+
+                <div class="col-sm-12 blue-greyBG"
+                style="margin: 3px;"><a href="no-page.html">Lunch Recipes</a></div>
+
+                <div class="col-sm-12 blue-greyBG"
+                style="margin: 3px;"><a href="no-page.html">Dinner Recipes</a></div>
+            </div>
+          </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">TODO... Add content</div>
+      </div>
+    </header>
+    <br>
+    
+    
+    <!-- alert -->
+    <div class="alert alert-danger" role="alert" style="text-align: center;">
+      <strong>Attention!</strong> This page is <strong>incomplete</strong>. There will be errors, bugs and missing pages located everywhere. Progress at your own risk.
+      <br/> (This alert is only temporary and will be removed once the page is completed.)
+    </div>
+    
+    <div class="jumbotron" id="jmb-mn">
+      <p class="lead">
+        <strong>Greetings!</strong> I hope you find this site useful. 
+        <br/>Be sure to learn plety of recipes, and thank you for visiting! 🍳🍗
+        <hr>
+        <p>
+          You can learn all about why I made this site <a href="no-page.html">HERE</a>!
+        </p>
+    </div>
+    
+    
+    <!-- Image carousel -->
+    <div id="recipieCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#recipieCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#recipieCarousel" data-slide-to="1"></li>
+        <li data-target="#recipieCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/french-toast.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>French Toast</h5>
+              <p>You can find the recipe <a href="french.html">here!</a></p>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/deviled-eggs.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Deviled Eggs</h5>
+              <p>You can find the recipe <a href="eggs.html">here!</a></p>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/strawberry-smoothie.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Strawberry smoothie</h5>
+              <p>You can find the recipe <a href="straw.html">here!</a></p>
+            </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#recipieCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#recipieCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  
+  
+    <!-- sample recipies -->
+    <div class="jumbotron">
+      <h3>Sample Recipes:</h3>
+      <hr>
+      <p class="lead" style="font-size: 12pt;">
+        Above are three sample recipes you can try next time you are 
+        <br>preparing a delicious meal or quick snack in the kitchen.
+        <br>
+        <span style="font-size: 14pt;">
+          <br>If you are viewing this page on a moble device, you can find
+          <br>the recipes above, here:
+       </span>
+          <ul>
+            <li><a href="french.html">French Toast</a></li>
+            <li><a href="eggs.html">Deviled Eggs</a></li>
+            <li><a href="straw.html">Strawberry Smoothie</a></li>
+          </ul>
+      <hr>
+    </div>
+    <hr>
+    <footer style="text-align: center; margin-top: 10px;">&copy; 2019, Dominic W.E.</footer>
+    
+    <!--Bootstrap Scripts!-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+  </body>
+</html>
